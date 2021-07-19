@@ -26,6 +26,7 @@
   background: white;
   width: 60px;
   padding-top: 7%;
+  user-select: none;
 }
 
 .increment {
@@ -34,6 +35,7 @@
   background: #B24242;
   width: 60px;
   padding-top: 7%;
+  user-select: none;
 }
 
 .counter-value {
@@ -46,6 +48,7 @@
   outline: none;
   border-right: none;
   border-left: none;
+  user-select: none;
 }
 
 body {
@@ -55,10 +58,12 @@ body {
 .counter-value > input{
   border: none;
   background: inherit;
-  padding: 20%;
-  width: inherit;
+  padding: 0%;
+  width: 50px;
   color: inherit;
   outline: none;
   font-weight: bold;
   font-size: medium;
+  text-align: end;
+  padding-top: 14px;
 }
