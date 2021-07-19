@@ -64,6 +64,6 @@ body {
   outline: none;
   font-weight: bold;
   font-size: medium;
-  text-align: end;
-  padding-top: 14px;
+  text-align: -webkit-center;
+  padding: 14px 14px;
 }
